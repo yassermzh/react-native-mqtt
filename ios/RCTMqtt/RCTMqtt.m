@@ -14,7 +14,7 @@
 
 #import <MQTTClient/MQTTClient.h>
 #import <MQTTClient/MQTTSessionManager.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaLumberjack.h>
 #import "Mqtt.h"
 
 @interface RCTMqtt : NSObject<RCTBridgeModule>
