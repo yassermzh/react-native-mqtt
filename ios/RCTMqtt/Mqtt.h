@@ -13,7 +13,7 @@
 
 #import <MQTTClient/MQTTClient.h>
 #import <MQTTClient/MQTTSessionManager.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaLumberjack.h>
 
 
 
@@ -25,5 +25,5 @@
 - (void) connect;
 - (void) disconnect;
 - (void) subscribe:(NSString *)topic qos:(NSNumber *)qos;
-- (void) publish:(NSString *) topic data:(NSData *)data qos:(NSNumber *)qos retain:(BOOL) retain;
+- (void) publish:(NSString *) topic data:(NSData *)data qos:(int)qos retain:(BOOL) retain;
 @end

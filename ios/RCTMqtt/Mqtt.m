@@ -164,11 +164,11 @@
 }
 
 - (void) subscribe:(NSString *)topic qos:(NSNumber *)qos {
-    
+
     [self.manager setSubscriptions:[NSDictionary dictionaryWithObject:qos forKey:topic]];
 }
 
-- (void) publish:(NSString *) topic data:(NSData *)data qos:(NSNumber *)qos retain:(BOOL) retain {
+- (void) publish:(NSString *) topic data:(NSData *)data qos:(int)qos retain:(BOOL) retain {
     [self.manager sendData:data
                      topic:topic
                        qos:(MQTTQosLevel)qos

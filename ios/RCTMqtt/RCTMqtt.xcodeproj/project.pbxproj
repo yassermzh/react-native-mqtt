@@ -374,10 +374,9 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
-					"\"${PODS_ROOT}/Headers/Public/MQTTClient\"",
-					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
+					"\"${PODS_ROOT}/CocoaLumberjack/**\"",
+					"\"${PODS_ROOT}/MQTTClient/**\"",
+					"\"${PODS_ROOT}/SocketRocket/**\"",
 					"$(SRCROOT)/../../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -392,10 +391,9 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
-					"\"${PODS_ROOT}/Headers/Public/MQTTClient\"",
-					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
+					"\"${PODS_ROOT}/CocoaLumberjack/**\"",
+					"\"${PODS_ROOT}/MQTTClient/**\"",
+					"\"${PODS_ROOT}/SocketRocket/**\"",
 					"$(SRCROOT)/../../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
